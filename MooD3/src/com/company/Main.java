@@ -9,8 +9,8 @@ import java.io.IOException;
 public class Main {
     public static void main(String[] args) throws IOException {
 
-        Archangel archangel = new Archangel("Valio",29,11);
-        Demon demon = new Demon("Kolio",30,24);
+        Archangel archangel = new Archangel("Castiel",29,11);
+        Demon demon = new Demon("Crowley",30,24);
 
         Battle battle = new Battle();
         battle.compare(archangel,demon);
